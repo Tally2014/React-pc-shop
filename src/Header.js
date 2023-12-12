@@ -2,10 +2,13 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>
-        <h1>Tally's PC Shop</h1>
-        <p>Best PC Deals</p>
-    </div>
+    <section className='header'>
+        <div className='headerText'>
+            <h1>PC SHOP</h1>
+            <p>Best PC Deals</p>
+        </div>
+        <div className='headerBall'/>
+    </section>
   )
 }
 
