@@ -17,6 +17,7 @@ body {
   display: flex;
   position: relative;
   overflow: hidden;
+  border: 2px solid pink;
 }
 
 .header .headerText {
